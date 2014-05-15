@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="title" content="AQUAGOLD - The perfect finishing touch for your skin treatments" />
+<meta name="description" content="AQUAGOLD fine touch is a patented, FDA-registered medical microneedle that advances the quality of 
+care in the rejuvenating procedure industry by providing painless, uniform and direct application of dermal therapeutics. 
+AQUAGOLD fine touch effectively delivers solutions with pure, 24-Carat gold-plated medical grade stainless steel microneedles. 
+The microneedles are 0.60 mm long and 0.13mm wide – smaller than a human hair. The device contains several patented technologies 
+that advance the industry standard and revolutionize the delivery of dermal agents." />
+<meta name="keywords" content="aquagold microneedle fine touch dermal application rejuvenation anti aging vitamin B12 dermatology beauty wrinkles dermal fillers growth factor aquavit pharmaceuticals needles skin treatment botox hyaluronic acid vitamin injection screw thread technology gold plated needle final touch smaller than human hair aesthetic smooth skin" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Aquagold</title>
+
+<!-- We will get our jQuery from google -->
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+	google.load('jquery', '1.4.1');
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#newsletter-signup').submit(function(){
+		
+		//check the form is not currently submitting
+		if($(this).data('formstatus') !== 'submitting'){
+		
+			//setup variables
+			var form = $(this),
+				formData = form.serialize(),
+				formUrl = form.attr('action'),
+				formMethod = form.attr('method'), 
+				responseMsg = $('#signup-response');
+			
+			//add status data to form
+			form.data('formstatus','submitting');
+			
+			//show response message - waiting
+			responseMsg.hide()
+					   .addClass('response-waiting')
+					   .text('Please Wait...')
+					   .fadeIn(200);
+			
+			//send data to server for validation
+			$.ajax({
+				url: formUrl,
+				type: formMethod,
+				data: formData,
+				success:function(data){
+					
+					//setup variables
+					var responseData = jQuery.parseJSON(data), 
+						klass = '';
+					
+					//response conditional
+					switch(responseData.status){
+						case 'error':
+							klass = 'response-error';
+						break;
+						case 'success':
+							klass = 'response-success';
+						break;	
+					}
+					
+					//show reponse message
+					responseMsg.fadeOut(200,function(){
+						$(this).removeClass('response-waiting')
+							   .addClass(klass)
+							   .text(responseData.message)
+							   .fadeIn(200,function(){
+								   //set timeout to hide response message
+								   setTimeout(function(){
+									   responseMsg.fadeOut(200,function(){
+									       $(this).removeClass(klass);
+										   form.data('formstatus','idle');
+									   });
+								   },3000)
+								});
+					});
+				}
+			});
+		}
+		
+		//prevent form from submitting
+		return false;
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="wrapper_contaier"> 
+  
+  <!--Header section-->
+  <div class="header_container">
+    <div class="logo"><a href="index.html"><img src="images/logo_big.png" width="400" height="57" alt="img" border="0" /></a></div>
+  </div>
+  
+  <!--Banner section-->
+  <div class="banner_section">
+    <form id="newsletter-signup" action="ajax_json_signup.php?action=signup" method="post">
+      <div class="sign-upText">Sign up now to receive an <em>exclusive</em> introductory offer.</div>
+      <div class="input_filled">
+        <input name="signup-name" type="text" class="name_txt" placeholder="Name" />
+        <input name="signup-email" placeholder="Email" type="text" class="email_txt" />
+        <div class="radio_box">
+          <ul>
+            <li>
+              <input name="signup-user" type="radio" value="consumer" style="vertical-align:text-bottom;" />
+              consumer</li>
+            <li>
+              <input name="signup-user" type="radio" value="professional" style="vertical-align:text-bottom;" />
+              professional</li>
+          </ul>
+        </div>
+        <input type="submit" value="Sign Up!" class="sign_up_btn" />
+        <p id="signup-response"></p>
+      </div>
+    </form>
+    
+    <!--Bottom text-->
+    <div class="bottom_text"><strong>Come see the debut of AQUAGOLD<sup>&reg;</sup> <span style="font-family:'Segoe Script';">fine touch</span><sup>&trade;</sup></strong><br />
+      at the <a href="http://www.aad.org/meetings/2014-annual-meeting" target="_blank" style="color:#000000;">72nd American Academy of Dermatology Annual Meeting</a><br />
+      in Denver, CO booth 645, March 21-25, 2014.</div>
+  </div>
+  
+  <!--Bottom Icon-->
+  <div class="fr"><a href="http://www.aquavitpharma.com/" target="_blank"><img src="images/aquavit_big.png" width="240" height="57" alt="img" border="0" /></a></div>
+</div>
+
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46206445-1', 'aquagoldfinetouch.com');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

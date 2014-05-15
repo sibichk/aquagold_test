@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 240px) and (max-width: 480px) { 
+
+body{
+	overflow-x:hidden;
+	}
+
+header.header_section {
+	width:100% !important;
+	float:left;
+	margin:0px;
+	padding:0xp;
+	height:65px;
+	border-bottom:1px solid #eaeaea;
+	padding-left:26px;
+	padding-top:10px;
+}
+.logo {
+	width:100%;
+	float:left;
+}
+.logo img {
+	width:265px !important;
+	height:auto !important;
+}
+
+.skin_text {
+    color: #79601E;
+    float: left;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    /*margin-left: 25px !important;*/
+    margin-top: 60px;
+    text-transform: uppercase;
+    width: 450px;
+}
+
+.right_link {
+    float: left;
+    margin-right: 0 !important;
+	margin-top:30px !important;}
+
+.skin_text{font-size:16px !important; line-height:20px !important;}
+
+/*.body_bg{width:100% !important; height:100%; float:left;background: url("../image/Girl_face.jpg") no-repeat scroll center 76px rgba(0, 0, 0, 0);}*/
+
+.full_row {
+	width:100%;
+	float:left;
+	display:block;
+	/*margin-top:32px !important;*/
+	margin-top:172px !important;
+}
+
+aside.patients_box_sec {
+	float:left;
+	width:295px;
+	height:150px;
+	display:block;
+	background:url(../image/trans_bg.png) repeat left top;
+	padding:10px;
+	margin-top:20px !important;
+}
+.left_bottom_text {
+	float:left;
+	width:100% !important;
+	font-size:12px;
+	margin-left:10px !important;
+	padding-top:10px !important;
+}
+.left_bottom_text a {
+	text-decoration:none;
+	color:#4b4b4b;
+}
+.socail_icon {
+	float:left;
+	width:320px !important;
+	font-size:12px;
+	vertical-align:middle;
+	padding-top:15px;
+}
+.fr.right {
+	float:left;
+	width:320px !important;
+	padding-top:10px;
+}
+.fr{float:left !important;}
+.fr img{float:left !important; margin-left:0px !important;}
+
+.product_view_box {
+    background: url("../image/trans_bg.png") repeat scroll left top transparent;
+    float: left;
+    height: 62% !important;
+    padding-left: 13px !important;
+    padding-top: 4%;
+    width: 21% !important ;
+}
+
+.hide{
+  display:none;
+}
+
+
+.mid_center {
+    margin: 0 auto ;
+    width: 98% !important;
+}
+.main_text-field {
+	background-size: 100% 100% !important;
+	}
+
+aside.patients_box_sec {
+	margin-left: 2% !important;
+	width: 73% !important;
+	height: auto !important
+	}
+	aside.patients_box {
+		width: 73% !important;
+		height: auto !important;
+		margin-left: 2% !important;
+		}
+.buy-btn {
+	margin-top: -14px !important;
+	}
+	
+section.body_container {
+	height: auto !important;
+	}
+	
+.nav_bar {
+	margin-top: 20px !important;
+	}
+.regist_center {
+	width: 99% !important;
+	}
+
+.registration_box {padding: 2px !important;}
+.input_regis {width: 90% !important}
+
+.full_row {position:relative !important;}
+
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+	
+	
+	.full_row {position:relative !important; /*margin-top: 1px !important*/ margin-top:172px !important;}
+	section.body_container {
+	height: auto !important;
+	}
+	/*.body_bg { background-size: 168% !important;}*/
+	/*.body_bg{width:100% !important; height:100%; float:left;background: url("../image/Girl_face.jpg") no-repeat scroll center 76px rgba(0, 0, 0, 0);}*/
+	
+	
+	aside.patients_box_sec {
+      float: left !important;
+    height: 150px;
+    margin-left: 2% !important;
+    /*margin-top: 18px !important;*/
+    padding: 10px;
+    width: 295px ;
+    }
+	
+	
+	aside.patients_box {
+		
+		
+	
+		margin-left: 2% !important;
+		margin-bottom: 18px !important;
+		}
+	.skin_text { /*margin-left: 5% !important;*/}
+	
+	body{overflow-x: hidden !important;}
+	
+	
+	.mid_center{
+		width: 98% !important;
+		}
+	.main_text-field {
+	background-size: 100% 100% !important;
+	}
+	.buy-btn {
+	margin-top: -14px !important;
+	}
+	aside.patients_box_sec {
+	margin-left: 2% !important;
+	
+	}
+	section.body_container {
+	height: auto !important;
+	}
+	.left_bottom_text {
+		margin-left: 10px !important;
+		}
+		
+		
+   .right_link {
+    float: left !important;
+    margin-right: 0 !important;
+    margin-top: 10px !important;
+	width: 100% !important
+}
+.nav_bar {
+	margin-top: 20px !important;
+	}
+	
+.regist_center {width: 65% !important;}
+
+.registration_box {padding: 8px !important;}
+.input_regis {width: 90% !important}
+.fr.right { float: left !important;}
+}
+
+
+@media (min-width: 780px) and (max-width: 980px) {
+	
+	.full_row {/*position:relative !important;*/ /*margin-top:20% !important*/ /*margin-top:100px !important;*/ bottom:148px;}
+	
+	.mid_center{
+		width: 98% !important;
+		}
+		
+	section.body_container {
+	height: auto !important;
+	}
+	
+	.body_bg { background-size: 116% !important;}
+	
+	.fr.right {
+		margin-left: 13% !important;
+		float: left !important;
+		}
+		
+	.logo {
+		width: 461px !important;
+		}
+	 .header_section { width: auto !important;}
+	 .regist_center {width: 56% !important;}
+
+    .registration_box {padding: 50px 77px !important;}
+     .input_regis {width: 100% !important}
+	 
+	}

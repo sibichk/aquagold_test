@@ -1,0 +1,38 @@
+<?php echo $header; ?>
+    
+    <!--Section Start: -->
+    <section class="body_container">
+      <div class="mid_center"> 
+        <!---upper text field start------->
+        
+        <div class="nav_bar"><!--<a href="./">home</a> &raquo; welcome--></div>
+        <span class="right_resource"> <a href="<?php echo $heartofgold; ?>">Heart of Gold Loyalty Program</a> | <a href="<?php echo $resources; ?>">Resources</a> </span> </div>
+      
+      <!-------upper text field end-------->
+      <div style="clear:both; width:100%; height:10px;"></div>
+      <!--lower text field start-->
+      <div class="mid_center">
+        <section class="main_text-field">
+          <aside class="patients_box_sec" style=" float:left !important; margin-left: 54px; margin-top:19px; background:#dfd6d6;">
+            <div class="patient_text">Physicians</div>
+            <form action="<?php echo $reward; ?>" method="post">
+              <div class="row_one"><span>Redeem Giftcard</span>
+                <input name="code" type="text" value="" class="zip_code" placeholder="Act. code" required>
+                <input type="submit" class="save_button" value="GO">
+              </div>
+              <div class="row_one"><a href="<?php echo $product; ?>"><span style="width:260px;">Order <font color="#79601e">AQUAGOLD<sup>&reg;</sup> <span style="font-family:'Segoe Script'; color:#79601e; float:none;">fine touch</span><sup>&trade;</sup></font></span></a> <a href="<?php echo $voucher; ?>"><span style="width:256px;">or Heart of Gold Gift Cards</span></a></div>
+              <a href="<?php echo $heartofgold; ?>"><div class="patient_text">Learn more about the benefits of our</div>
+              <div class="patient_text" style="font-size:14px; padding-top:5px;">Heart of Gold Rewards Program </div></a>
+            </form>
+          </aside>
+          <aside class="buy"> <span class="italic">Special limited time offer</span><br/>
+            <br/>
+            <input type="button" class="buy-btn" value="BUY NOW" onclick="location.href='<?php echo $product; ?>'">
+          </aside>
+        </section>
+      </div>
+      <!--lower text field end-->
+      
+    </section>
+
+<?php echo $footer; ?>

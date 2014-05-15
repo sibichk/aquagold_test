@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body {
+	margin:0px;
+	padding:0px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.wrapper_contaier {
+	width:980px;
+	margin:0 auto;
+}
+.header_container {
+	width:980px;
+	float:left;
+	padding-top:25px;
+	
+}
+.logo {
+	float:left;
+	margin-left:42px;
+}
+.banner_section {
+	width:890px;
+	float:left;
+	background:url(../images/banner_bg.png) no-repeat left top;
+	height:275px;
+	margin-top:25px;
+	padding-top:175px;
+	padding-left:50px;
+	padding-right:40px;
+
+}
+/* form css start from here*/
+
+
+
+.input_filled {
+	float:left;
+	width:550px;
+	padding-top:45px;
+}
+.sign-upText {
+	float:left;
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#151412;
+	margin-top:25px;
+}
+.name_txt {
+	width:120px;
+	padding:0 5px;
+	float:left;
+	border:1px solid #f9f9f9;
+	height:28px;
+	margin-right:8px;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#616161;
+}
+.email_txt {
+	width:120px;
+	float:left;
+	padding:0 5px;
+	border:1px solid #f9f9f9;
+	height:28px;
+	margin-right:8px;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#616161;
+}
+.radio_box {
+	float:left;
+	margin-left:8px;
+	width:100px;
+}
+.radio_box ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.radio_box ul li {
+	float:left;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.sign_up_btn {
+	float:left;
+	width:100px;
+	height:33px;
+	border:none;
+	cursor:pointer;
+	text-align:center;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#d6a640;
+	margin-left:12px;
+}
+.sign_up_btn:hover {
+	background-color:#EBEBEB;
+}
+.bottom_text {
+	float:left;
+	width:410px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	margin-top:50px;
+}
+
+#signup-response {
+	float:left;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	padding-left:20px;
+}
+
+.response-waiting {
+	background:url("../images/loading.gif") no-repeat;
+}
+
+.response-success {
+	background:url("../images/tick.png") no-repeat;
+}
+
+.response-error {
+	background:url("../images/cross.png") no-repeat;
+}
