@@ -14,7 +14,7 @@
       </div>
       <?php if ($type == 1) { ?>
       <h1><!--PURCHASE-->Let's get started</h1>
-      <div class="button_box" style="margin-top:-50px; margin-left:180px;"> 
+      <div class="button_box"> 
         <input type="button" value="Create your own giftcards" class="createCardButton" onclick="location.href='<?php echo $creategiftcard; ?>';">
         <input type="button" value="Purchase your own giftcards" class="giftCardButton active" onclick="location.href='<?php echo $voucher; ?>';">
         <input type="button" value="Order AQUAGOLD for the office" class="aquaGardButton" onclick="location.href='<?php echo $product; ?>';">

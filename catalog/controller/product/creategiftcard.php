@@ -11,6 +11,19 @@
 		$this->document->setTitle($this->language->get('heading_title'));
 		//$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
 		//$this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
+                $this->data['breadcrumbs'] = array();
+
+		$this->data['breadcrumbs'][] = array(
+			'text'      => $this->language->get('text_home'),
+			'href'      => $this->url->link('common/home'),
+			'separator' => false
+		);
+
+		$this->data['breadcrumbs'][] = array(
+			'text'      => $this->language->get('text_creategiftcard'),
+			'href'      => $this->url->link('product/creategiftcard', '', 'SSL'),
+			'separator' => $this->language->get('text_separator')
+		);
                 $this->data['type'] = $this->customer->getCustomerType();
                 $this->data['creategiftcard'] = $this->url->link('product/creategiftcard','','SSL');
 		$this->data['voucher'] = $this->url->link('account/voucher', '', 'SSL');

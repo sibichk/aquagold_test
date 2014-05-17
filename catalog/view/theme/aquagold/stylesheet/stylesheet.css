@@ -1019,6 +1019,7 @@ ul.box-filter > li ul {
 }
 /* Product */
 .product-info {
+        margin-top:70px;
 	overflow: auto;
 	margin-bottom: 20px;
 }

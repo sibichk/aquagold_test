@@ -1056,9 +1056,56 @@ table.ulList tr td {
 	text-transform: uppercase;
 	padding-bottom: 15px;
 }
-.button_box{float: left;
-    margin-left: 20px;
-    margin-top: -6px;}
+.button_box{
+    float: left;
+}
+#giftcard_info{
+    display: -webkit-box;
+    padding-top: 20px;
+}
+#offer{
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    margin-top:20px;
+}
+
+/* create gift card */
+.create_giftcard, .giftcard_img{
+		/* display:inline-block; */
+	}
+	span{
+		float:right;
+	}
+	.discount{
+		font-size:20px;
+	}
+	.discount span{
+		font-size:18px;
+	}
+	.discount_rate{
+		background-color: #A2741C;
+		width: 75px;
+		color:white;
+		height: 36px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 10px;
+		padding-top: 18px;
+		font-size:25px;
+		margin-left:15px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	#calendar input{
+		width:50px;
+	}
+
+	.giftcard_img img{
+		height:250px;
+		margin-left: 150px;
+	}
+
 /* purchase button*/
 .aquaGardButton{width:206px; float:left; height:32px; /*background:url(../image/aquaGardButton.jpg) no-repeat left top;*/ cursor:pointer; border:none; color:#826323; font-weight:bold;}
 .giftCardButton{width:206px; float:left; height:32px; /*background:url(../image/giftCard.jpg) no-repeat left top;*/ border:none; margin-left:10px; cursor:pointer; margin-right:10px; color:#826323; font-weight:bold;}
