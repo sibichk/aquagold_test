@@ -1077,12 +1077,12 @@ table.ulList tr td {
 		float:right;
 	}
 	.discount{
-		font-size:20px;
+		font-size:15px;
 	}
 	.discount span{
-		font-size:18px;
+		font-size:15px;
 	}
-	.discount_rate{
+	.discount_rate, .denomination{
 		background-color: #A2741C;
 		width: 75px;
 		color:white;
@@ -1091,11 +1091,14 @@ table.ulList tr td {
 		text-align: center;
 		border-radius: 10px;
 		padding-top: 18px;
-		font-size:25px;
+		font-size:17px;
 		margin-left:15px;
 	}
 	h3{
-		font-size: 25px;
+		font-size: 17px;
+	}
+        .active2{
+		background-color:#43230B;
 	}
 	#calendar input{
 		width:50px;
@@ -1104,6 +1107,21 @@ table.ulList tr td {
 	.giftcard_img img{
 		height:250px;
 		margin-left: 150px;
+	}
+        .giftcard_buttons{
+		margin-left:160px;
+                margin-top:60px;
+	}
+        .giftcard_buttons input[type='button']{
+		background-color: #A2741C;
+		color: white;
+		height: 42px;
+		width: 75px;
+		border: none;
+		margin-right:20px;
+	}
+        .giftcard_buttons input:nth-child(2){
+		width:200px;
 	}
 
 /* purchase button*/

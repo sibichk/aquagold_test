@@ -23,7 +23,7 @@
     </div>
     <div class="mid_center" id="giftcard_info">
        <div class="create_giftcard">
-		<h3>1. Set your exclusive offer<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" id="offer_dialog"/></h3>
+		<h3>1. Set your exclusive offer<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="Attract more customers by offering them discount when they use the giftcard" /></h3>
                        
 
 		<div class="discount">Your discount rate <span>currently at x%</span></div>
@@ -33,15 +33,19 @@
 		<div class="discount_rate">20%</div>
 		<div class="discount">Promotion period</div>
 		<div id="calendar">From <input type="text"> to<input type="text"></div>
-		<h3>2. Choose your giftcard denominations<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20"id="denomination_dialog"/></h3>
-		<div class="discount_rate">$250</div>
-		<div class="discount_rate">$500</div>
-		<div class="discount_rate">$1000</div>
-		<div class="discount_rate">$5000</div>
+		<h3>2. Choose your giftcard denominations<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="These are the giftcard denomination you are offering your patients to redeem for AQUAGOLD treatment" /></h3>
+		<div class="denomination active2">$250</div>
+		<div class="denomination">$500</div>
+		<div class="denomination">$1000</div>
+		<div class="denomination">$5000</div>
 	</div>
 	<div class="giftcard_img">
 		<img src="catalog/view/theme/aquagold/image/Giftcard_250.jpg">
+                <div class="giftcard_buttons">
+		<input type="button" value="Save"><input type="button" value="purchase your own giftcards >>">
+                </div>
 	</div>
+        
     </div>   
     
   </div>
