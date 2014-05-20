@@ -15,8 +15,8 @@
       <?php if ($type == 1) { ?>
       <h1><!--PURCHASE-->Let's get started</h1>
       <div class="button_box"> 
-        <input type="button" value="Create your own giftcards" class="createCardButton" onclick="location.href='<?php echo $creategiftcard; ?>';">
-        <input type="button" value="Purchase your own giftcards" class="giftCardButton active" onclick="location.href='<?php echo $voucher; ?>';">
+        <input type="button" value="Create your own giftcards" class="createCardButton active" onclick="location.href='<?php echo $creategiftcard; ?>';">
+        <input type="button" value="Purchase your own giftcards" class="giftCardButton" onclick="location.href='<?php echo $voucher; ?>';">
         <input type="button" value="Order AQUAGOLD for the office" class="aquaGardButton" onclick="location.href='<?php echo $product; ?>';">
       </div>
       <?php } ?>
@@ -34,13 +34,14 @@
 		<div class="discount">Promotion period</div>
 		<div id="calendar">From <input type="text"> to<input type="text"></div>
 		<h3>2. Choose your giftcard denominations<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="These are the giftcard denomination you are offering your patients to redeem for AQUAGOLD treatment" /></h3>
-		<div class="denomination active2">$250</div>
+                <div class="discount">Choose all that apply</div>
+		<div class="denomination">$250</div>
 		<div class="denomination">$500</div>
 		<div class="denomination">$1000</div>
 		<div class="denomination">$5000</div>
 	</div>
 	<div class="giftcard_img">
-		<img src="catalog/view/theme/aquagold/image/Giftcard_250.jpg">
+            <span><img src="catalog/view/theme/aquagold/image/giftcard(1).png"></span>
                 <div class="giftcard_buttons">
 		<input type="button" value="Save"><input type="button" value="purchase your own giftcards >>">
                 </div>

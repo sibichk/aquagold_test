@@ -3,11 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/voucher_040414.tpl</file>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/index_4.14.14.php</file>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/voucher_bak.tpl</file>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/index.php</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/stylesheet/stylesheet.css</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/product/product.php</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/account/voucher.php</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/javascript/common.js</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/javascript/jquery/giftcard.js</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/stylesheet/style.css</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/product/product.tpl</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/common/header.tpl</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/product/creategiftcard.php</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/product/creategiftcard.tpl</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/voucher.tpl</file>
         </group>
     </open-files>

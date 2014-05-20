@@ -1070,26 +1070,22 @@ table.ulList tr td {
 }
 
 /* create gift card */
-.create_giftcard, .giftcard_img{
-		/* display:inline-block; */
-	}
-	span{
-		float:right;
-	}
 	.discount{
 		font-size:15px;
 	}
 	.discount span{
 		font-size:15px;
+                float:right;
 	}
 	.discount_rate, .denomination{
 		background-color: #A2741C;
 		width: 75px;
+                opacity:0.7;
 		color:white;
 		height: 36px;
 		display: inline-block;
 		text-align: center;
-		border-radius: 10px;
+		border-radius: 7px;
 		padding-top: 18px;
 		font-size:17px;
 		margin-left:15px;
@@ -1097,9 +1093,9 @@ table.ulList tr td {
 	h3{
 		font-size: 17px;
 	}
-        .active2{
-		background-color:#43230B;
-	}
+        .active1{
+            opacity:1 !important;
+        }
 	#calendar input{
 		width:50px;
 	}
@@ -1128,7 +1124,7 @@ table.ulList tr td {
 .aquaGardButton{width:206px; float:left; height:32px; /*background:url(../image/aquaGardButton.jpg) no-repeat left top;*/ cursor:pointer; border:none; color:#826323; font-weight:bold;}
 .giftCardButton{width:206px; float:left; height:32px; /*background:url(../image/giftCard.jpg) no-repeat left top;*/ border:none; margin-left:10px; cursor:pointer; margin-right:10px; color:#826323; font-weight:bold;}
 .createCardButton{width:206px; float:left; height:32px; cursor:pointer; border:none; color:#826323; font-weight:bold;}
-.aquaGardButton:hover, .giftCardButton:hover, .createCardButton{background-color:#999999; color:#000000;}
+.aquaGardButton:hover, .giftCardButton:hover, .createCardButton:hover{background-color:#999999; color:#000000;}
 .button_box .active{background-color:#999999; color:#000000;}
 h2.purchase {
 	margin: 0px;
@@ -1189,3 +1185,14 @@ h2.purchase {
 	box-shadow: 1px 1px 0px #efefef;
 }
 .shipping_btn{background:#83642a; width:163px; height:37px; float:right; color:#fff; cursor:pointer; border:none; text-align:center; font-size:13px; font-weight:bold;}
+
+@-moz-document url-prefix() {
+    .create_giftcard, .giftcard_img{
+	display:inline-block;
+	}
+    .giftcard_img{
+        margin-left: 500px;
+        display: -moz-inline-block;
+        margin-top: -210px;
+        }
+}
