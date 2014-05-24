@@ -23,7 +23,7 @@
     </div>
     <div class="mid_center" id="giftcard_info">
        <div class="create_giftcard">
-		<h3>1. Set your exclusive offer<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="Attract more customers by offering them discount when they use the giftcard" /></h3>
+           <span style="font-size:19px">1. Set your exclusive offer</span><img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="Attract more customers by offering them discount when they use the giftcard" />
                        
 
 		<div class="discount">Your discount rate <span>currently at x%</span></div>
@@ -32,8 +32,8 @@
 		<div class="discount_rate">15%</div>
 		<div class="discount_rate">20%</div>
 		<div class="discount">Promotion period</div>
-		<div id="calendar">From <input type="text"> to<input type="text"></div>
-		<h3>2. Choose your giftcard denominations<img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="These are the giftcard denomination you are offering your patients to redeem for AQUAGOLD treatment" /></h3>
+                <div id="calendar">From <input type="text" class="datepicker" readonly>&nbsp;&nbsp;&nbsp;&nbsp; to<input type="text" class="datepicker" readonly></div>
+                <span style="font-size:19px">2. Choose your giftcard denominations</span><img src="catalog/view/theme/aquagold/image/question_icon.png" height="20" width="20" title="These are the giftcard denomination you are offering your patients to redeem for AQUAGOLD treatment" />
                 <div class="discount">Choose all that apply</div>
 		<div class="denomination">$250</div>
 		<div class="denomination">$500</div>
@@ -41,9 +41,9 @@
 		<div class="denomination">$5000</div>
 	</div>
 	<div class="giftcard_img">
-            <span><img src="catalog/view/theme/aquagold/image/giftcard(1).png"></span>
+            <span><img src="catalog/view/theme/aquagold/image/giftcard(1).png" height="400"></span>
                 <div class="giftcard_buttons">
-		<input type="button" value="Save"><input type="button" value="purchase your own giftcards >>">
+		<input type="button" value="Save"><input type="button" value="Purchase your own giftcards >>">
                 </div>
 	</div>
         
@@ -51,6 +51,10 @@
     
   </div>
   </section>
-
+<script>
+  $(function() {
+    $( ".datepicker" ).datepicker();
+  });
+  </script>
 
 <?php echo $footer; ?>

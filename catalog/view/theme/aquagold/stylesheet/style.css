@@ -1070,56 +1070,79 @@ table.ulList tr td {
 }
 
 /* create gift card */
-	.discount{
-		font-size:15px;
-	}
-	.discount span{
-		font-size:15px;
-                float:right;
-	}
-	.discount_rate, .denomination{
-		background-color: #A2741C;
-		width: 75px;
-                opacity:0.7;
-		color:white;
-		height: 36px;
-		display: inline-block;
-		text-align: center;
-		border-radius: 7px;
-		padding-top: 18px;
-		font-size:17px;
-		margin-left:15px;
-	}
-	h3{
-		font-size: 17px;
-	}
-        .active1{
-            opacity:1 !important;
-        }
-	#calendar input{
-		width:50px;
-	}
+.create_giftcard{
+    padding-top:12px;
+}
+.create_giftcard img{
+                vertical-align: bottom;
+                margin-left: 10px;
+}
+.discount{
+        font-size:15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+}
+.discount span{
+        font-size:15px;
+        float:right;
+}
+.discount_rate, .denomination{
+        background-color: #A2741C;
+        width: 75px;
+        opacity:0.7;
+        color:white;
+        height: 29px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 4px;
+        padding-top: 13px;
+        font-size:17px;
+        margin-left:15px;
+}
+.discount_rate:hover{
+    cursor: pointer;
+}
+.create_giftcard span{
+        font-size: 17px;
+        color: #826323;
+}
+.active1{
+    opacity:1 !important;
+}
+#calendar{
+    padding-bottom:28px;
+}
+#calendar input{
+        width:50px;
+        margin-left:15px;
+}
 
-	.giftcard_img img{
-		height:250px;
-		margin-left: 150px;
-	}
-        .giftcard_buttons{
-		margin-left:160px;
-                margin-top:60px;
-	}
-        .giftcard_buttons input[type='button']{
-		background-color: #A2741C;
-		color: white;
-		height: 42px;
-		width: 75px;
-		border: none;
-		margin-right:20px;
-	}
-        .giftcard_buttons input:nth-child(2){
-		width:200px;
-	}
-
+.giftcard_img img{
+        height:310px;
+        margin-left: 150px;
+        margin-top:43px;
+}
+.giftcard_buttons{
+        margin-left:210px;
+        margin-top:40px;
+        padding-bottom: 10px;
+}
+.giftcard_buttons input[type='button']{
+        background-color: #A2741C;
+        color: white;
+        height: 42px;
+        width: 75px;
+        border: none;
+        margin-right:20px;
+}
+.giftcard_buttons input:nth-child(2){
+        width:200px;
+}
+#calendar input:focus{
+    outline:none !important;
+    border-color:#A2741C !important;
+    box-shadow:0 0 10px #A2741C !important;
+}
 /* purchase button*/
 .aquaGardButton{width:206px; float:left; height:32px; /*background:url(../image/aquaGardButton.jpg) no-repeat left top;*/ cursor:pointer; border:none; color:#826323; font-weight:bold;}
 .giftCardButton{width:206px; float:left; height:32px; /*background:url(../image/giftCard.jpg) no-repeat left top;*/ border:none; margin-left:10px; cursor:pointer; margin-right:10px; color:#826323; font-weight:bold;}

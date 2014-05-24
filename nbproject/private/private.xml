@@ -3,14 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/stylesheet/stylesheet.css</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/account/coupon.php</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/coupon_form.tpl</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/account.tpl</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/product/product.php</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/account/voucher.php</file>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/javascript/common.js</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/language/english/account/coupon.php</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/javascript/jquery/giftcard.js</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/stylesheet/style.css</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/product/product.tpl</file>
-            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/common/header.tpl</file>
+            <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/common/header.php</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/controller/product/creategiftcard.php</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/product/creategiftcard.tpl</file>
             <file>file:/Applications/MAMP/htdocs/aquagold_test/catalog/view/theme/aquagold/template/account/voucher.tpl</file>

@@ -26,6 +26,7 @@
 		);
                 $this->data['type'] = $this->customer->getCustomerType();
                 $this->document->addScript('catalog/view/javascript/jquery/giftcard.js');
+                
                 $this->data['creategiftcard'] = $this->url->link('product/creategiftcard','','SSL');
 		$this->data['voucher'] = $this->url->link('account/voucher', '', 'SSL');
 		$this->data['product'] = $this->url->link('product/product', 'product_id=50');

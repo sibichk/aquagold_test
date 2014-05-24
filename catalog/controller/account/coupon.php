@@ -23,7 +23,6 @@ class ControllerAccountCoupon extends Controller {
 	public function insert() {
 		if (!$this->customer->isLogged()) {
 			$this->session->data['redirect'] = $this->url->link('account/coupon/insert', '', 'SSL');
-
 			$this->redirect($this->url->link('account/login', '', 'SSL'));
 		} else if ($this->customer->getCustomerType() == 2) {
 			$this->redirect($this->url->link('account/account', '', 'SSL'));
